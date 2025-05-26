@@ -1,0 +1,34 @@
+.team-card, .player-card {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.team-card:hover, .player-card:hover {
+    transform: translateY(-5px);
+}
+
+.team-logo {
+    max-width: 150px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.player-image {
+    max-width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.history-item {
+    padding: 20px;
+    border-left: 4px solid #007bff;
+    margin-bottom: 20px;
+    background-color: #f8f9fa;
+}
+
+#welcome {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}

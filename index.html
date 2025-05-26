@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA 知識庫</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">NBA 知識庫</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#teams">球隊介紹</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#players">球員統計</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#history">歷史故事</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <section id="welcome" class="text-center">
+            <h1>歡迎來到 NBA 知識庫</h1>
+            <p class="lead">探索 NBA 的精彩世界</p>
+        </section>
+
+        <section id="teams" class="my-5">
+            <h2>NBA 球隊</h2>
+            <div class="row" id="teamsContainer">
+                <!-- 球隊資訊將由 JavaScript 動態載入 -->
+            </div>
+        </section>
+
+        <section id="players" class="my-5">
+            <h2>熱門球員</h2>
+            <div class="row" id="playersContainer">
+                <!-- 球員資訊將由 JavaScript 動態載入 -->
+            </div>
+        </section>
+
+        <section id="history" class="my-5">
+            <h2>NBA 歷史故事</h2>
+            <div id="historyContent">
+                <!-- 歷史內容將由 JavaScript 動態載入 -->
+            </div>
+        </section>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
